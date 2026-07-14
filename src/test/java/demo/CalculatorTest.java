@@ -12,4 +12,9 @@ class CalculatorTest {
     void addsTwoNumbers() {
         assertEquals(5, calc.add(2, 3));
     }
+
+    @Test
+    void multipliesTwoNumbers() {
+        assertEquals(6, calc.multiply(2, 3));
+    }
 }
